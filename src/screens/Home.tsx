@@ -37,7 +37,7 @@ export function Home(){
         <VStack flex={1} background={"gray.900"}>
             <Header/>
             <HStack px={6} mt={-10} direction="row">
-                <Input onChangeText={setInputText} value={inputText}/>
+                <Input onChangeText={setInputText} value={inputText} onSubmitEditing={handleAddItem}/>
                 <Button onPress={handleAddItem}/>
             </HStack>
             <HStack justifyContent={"space-between"} px={6} mt={6} mb={8}>

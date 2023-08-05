@@ -7,6 +7,7 @@ export function Input(props: IInputProps){
             bg={'gray.700'}
             px={4}
             h={"12"}
+            returnKeyType="done"
             borderWidth={0}
             fontSize={'md'}
             color={'white'}
